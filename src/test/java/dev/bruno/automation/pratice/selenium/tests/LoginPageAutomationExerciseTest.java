@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
-import automationExercise.LoginPageAutomationExercise;
+import dev.bruno.automation.pratice.selenium.pages.LoginPageAutomationExercise;
 
 
 class LoginPageAutomationExerciseTest {

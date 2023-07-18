@@ -1,10 +1,8 @@
-package automationExercise;
+package dev.bruno.automation.pratice.selenium.pages;
 
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-
-import dev.bruno.automation.pratice.selenium.pages.BasePage;
 
 public class RegisterPageAutomationExercise extends BasePage{
 	

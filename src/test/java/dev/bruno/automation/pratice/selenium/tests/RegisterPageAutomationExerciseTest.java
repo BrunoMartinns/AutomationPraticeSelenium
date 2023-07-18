@@ -6,7 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
-import automationExercise.RegisterPageAutomationExercise;
+import dev.bruno.automation.pratice.selenium.pages.RegisterPageAutomationExercise;
 
 class RegisterPageAutomationExerciseTest {
 	private RegisterPageAutomationExercise registerPageAutomationExercise; 

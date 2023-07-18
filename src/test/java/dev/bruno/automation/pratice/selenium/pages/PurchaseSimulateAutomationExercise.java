@@ -1,10 +1,8 @@
-package automationExercise;
+package dev.bruno.automation.pratice.selenium.pages;
 
 import javax.annotation.concurrent.ThreadSafe;
 
 import org.openqa.selenium.By;
-
-import dev.bruno.automation.pratice.selenium.pages.BasePage;
 
 public class PurchaseSimulateAutomationExercise extends BasePage {
 	

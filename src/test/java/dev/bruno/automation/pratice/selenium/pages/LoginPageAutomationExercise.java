@@ -1,8 +1,6 @@
-package automationExercise;
+package dev.bruno.automation.pratice.selenium.pages;
 
 import org.openqa.selenium.By;
-
-import dev.bruno.automation.pratice.selenium.pages.BasePage;
 
 public class LoginPageAutomationExercise extends BasePage {
 	

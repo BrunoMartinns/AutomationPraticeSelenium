@@ -8,8 +8,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
-import automationExercise.LoginPageAutomationExercise;
-import automationExercise.PurchaseSimulateAutomationExercise;
+import dev.bruno.automation.pratice.selenium.pages.LoginPageAutomationExercise;
+import dev.bruno.automation.pratice.selenium.pages.PurchaseSimulateAutomationExercise;
 import net.bytebuddy.asm.Advice.This;
 
 class PurchaseSimulateAutomationExerciseTest {
