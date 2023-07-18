@@ -98,7 +98,13 @@ public abstract class BasePage {
 		this.driver.findElement(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all']//a[text()='"+value+"']")).click();
 	}
 	
+	public String getTextByAttribute(By locator, String atributeName) {
+		return this.driver.findElement(locator).getAttribute(atributeName);
+	}
 	
+	private Boolean isContainedInPageSource(String message) {
+		return this.driver.getPageSource().contains(message);
+	}
 	
 
 }
